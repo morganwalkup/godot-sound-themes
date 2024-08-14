@@ -2,7 +2,7 @@
 
 A plugin for playing ui sound effects defined through ui themes.
 
-**Note**: Depends on the `SoundManager` plugin.
+**Note**: Depends on Morgan Walkup's `SoundManager` plugin.
 
 ### How to use
 
