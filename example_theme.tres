@@ -1,0 +1,43 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://dnexxdpp1jwxp"]
+
+[ext_resource type="AudioStream" uid="uid://btya6btul8cc8" path="res://addons/sound_themes/example_focus_sound.wav" id="1_ap2gx"]
+[ext_resource type="AudioStream" uid="uid://boealrnckuj0m" path="res://addons/sound_themes/example_pressed_sound.wav" id="2_opkax"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tkmd0"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+metadata/sound = ExtResource("1_ap2gx")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_q8rjj"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0, 0, 0, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+metadata/sound = ExtResource("2_opkax")
+
+[resource]
+Button/styles/focus = SubResource("StyleBoxFlat_tkmd0")
+Button/styles/pressed = SubResource("StyleBoxFlat_q8rjj")
